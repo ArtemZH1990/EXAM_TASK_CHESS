@@ -9,7 +9,8 @@ st1, str1, st2, str2 = int(input()), int(input()), int(input()), int(input())
 if (st1==str1 and st2==str2-5) or (st1==st2+5 and str1==str2-1) or (st1==st2+6 and str1==str2+4):
     print('NO')
 
-elif ((st1==st2+1 or st1==st2-1) or (st1==st2+2 or st1==st2-2) or (st1==st2+3 or st1==st2-3) or (st1==st2+4 or st1==st2-4) or (st1==st2+5 or st1==st2-5) or (st1==st2+6 or st1==st2-6) or (st1==st2+7 or st1==st2-7)) and 
+elif ((st1==st2+1 or st1==st2-1) or (st1==st2+2 or st1==st2-2) or (st1==st2+3 or st1==st2-3) or (st1==st2+4 or st1==st2-4) or (st1==st2+5 or st1==st2-5) or (st1==st2+6 or st1==st2-6) or (st1==st2+7 or st1==st2-7)) 
+and 
 ((str1==str2+1 or str1==str2-1) or (str1==str2+2 or str1==str2-2) or (str1==str2+3 or str1==str2-3) or (str1==str2+4 or str1==str2-4) or (str1==str2+5 or str1==str2-5) or (str1==str2+6 or str1==str2-6) or (str1==str2+7 or str1==str2-7)):
     print('YES')
 
